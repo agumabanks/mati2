@@ -5,7 +5,7 @@ import DigitalSolutions from '../components/DigitalSolutions'
 export  default function Solutions(){
     return (
        
-      <div className="min-h-full">
+      <div className="min-h-full ">
        <DigitalSolutions />
       </div>
       

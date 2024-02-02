@@ -11,7 +11,7 @@ const products: Product[] = [
     {
         id: 1,
         name: 'EnigmaX Edu',
-        image: '/picsfloder/protect.jpg',
+        image: '/picsfloder/products/akongo/7.jpg',
         shortDescription: 'Description goes here',
         details: {
           screenSize: '14.1\'\' / 1920*1080 FHD 1920*1080P',
@@ -24,7 +24,7 @@ const products: Product[] = [
       {
         id: 2,
         name: 'EnigmaX Se',
-        image: '/picsfloder/protect.jpg',
+        image: '/picsfloder/products/akongo/7.jpg',
         shortDescription: 'Description goes here',
         details: {
           screenSize: '14.1\'\' / 1920*1080 FHD 1920*1080P',
@@ -37,7 +37,7 @@ const products: Product[] = [
       {
         id: 3,
         name: 'EnigmaX Pro',
-        image: '/picsfloder/protect.jpg',
+        image: '/picsfloder/products/akongo/7.jpg',
         shortDescription: 'Description goes here',
         details: {
           screenSize: '14.1\'\' / 1920*1080 FHD 1920*1080P',
@@ -50,7 +50,7 @@ const products: Product[] = [
       {
         id: 4,
         name: 'EnigmaX Pro Se',
-        image: '/picsfloder/protect.jpg',
+        image: '/picsfloder/products/akongo/7.jpg',
         shortDescription: 'Description goes here',
         details: {
           screenSize: '14.1 and 15.6inch, FHD 1920*1080P',
@@ -63,7 +63,7 @@ const products: Product[] = [
       {
         id: 5,
         name: 'EnigmaX Large',
-        image: '/picsfloder/protect.jpg',
+        image: '/picsfloder/products/akongo/7.jpg',
         shortDescription: 'Description goes here',
         details: {
           screenSize: '15.6inch, FHD 1920*1080P',
@@ -76,7 +76,7 @@ const products: Product[] = [
       {
         id: 6,
         name: 'EnigmaX Large Se',
-        image: '/picsfloder/protect.jpg',
+        image: '/picsfloder/products/akongo/7.jpg',
         shortDescription: 'Description goes here',
         details: {
           screenSize: '15.6inch, FHD 1920*1080P',

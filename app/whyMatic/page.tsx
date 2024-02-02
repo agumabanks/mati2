@@ -377,7 +377,10 @@ export  default function About(){
 
             <Teams />
      
-          <CompanyNews />
+     <div className='p-4'>
+       <CompanyNews />
+     </div>
+         
         </div>
         
        

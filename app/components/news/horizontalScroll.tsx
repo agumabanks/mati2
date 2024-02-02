@@ -110,11 +110,11 @@ const NewsPostCard: React.FC<NewsPostProps> = ({ post }) => {
   return (
     
     <div className="h-full w-auto bg-slate-200 hover:bg-slate-50 
-                    p-4 shadow-lg  rounded  hover:shadow-lg m-4">
+                    p-4 shadow-lg  rounded  hover:shadow-lg m-4 dark:text-gray-500">
       {/* Your post card content */}
       <img  className="w-full h-[200px]  block object-cover  rounded-md"  src={post.imageUrl}  alt={post.title} />
 
-      <h3 className='text-lg font-bold line-clamp-2 mt-5'>{post.title}</h3>
+      <h3 className='text-lg font-bold line-clamp-2 mt-5 dark:text-gray-600'>{post.title}</h3>
       <p className='line-clamp-3 hover:line-clamp-5 pt-4 mb-4'>{post.description}</p>
       {/* Add other elements as needed */}
     </div>
@@ -136,7 +136,7 @@ const AutoHorizontalScroll: React.FC = () => {
   };
 
   return (
-    <div className="auto-horizontal-scroll">
+    <div className="auto-horizontal-scroll p-2">
       <Slider {...settings}>
         {newsPosts.map((post) => (
           <NewsPostCard key={post.id} post={post} />

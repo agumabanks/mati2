@@ -80,7 +80,7 @@ const FaqDComponent: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto p-8 dark:text-black">
       {sampleFAQ.map((faq, index) => (
         <div key={index} className="mb-4">
           <div

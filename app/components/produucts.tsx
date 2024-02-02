@@ -227,17 +227,45 @@ const FooterSection: React.FC = () => {
 
 const ProductsPage: React.FC = () => {
   return (
-    <div className="container mx-auto my-10 ">
-      <imgSlider images={sliderImages} />
+    <div className="container mx-auto ">
+      
 
-      <div className='my-30'> 
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 my-10 '> 
         <VideoSection />
+        <div className='p-5 my-3'>
+        {/* public/picsfloder/co1.png */}
+          <div className='grid gap-8 grid-cols-2 grid-rows-1 md:grid-cols-2 md:grid-rows-2 '>
+               <div className='flex flex-col justify-center size-full  item-center bg-gray-100 m-2 rounded-md px-5 py-7'> 
+                  <img className='' src="/picsfloder/co1.png" alt="" />
+                  {/* <div>Continuun</div> */}
+               </div>
+               <div className='flex flex-col justify-center size-full  item-center bg-white m-2 rounded-md px-5 py-7'> 
+                  <img className='h-[300] w-full' src="/picsfloder/products/2.png" alt="" />
+                  {/* <div>Enigma X</div> */}
+               </div>
+               <div className='flex flex-col justify-center size-full  item-center bg-white m-2 rounded-md px-5 py-7'> 
+                  <img className='h-[300] w-full' src="/picsfloder/products/akongo/7.jpg" alt="" />
+                  {/* <div>Akongo</div> */}
+               </div>
+               <div className='flex flex-col justify-center size-full  item-center bg-white m-2 rounded-md px-5 py-7'> 
+                  <img className='h-[300] w-full' src="/picsfloder/products/akongo/1.jpg" alt="" />
+                  {/* <div>Akongo Pro</div> */}
+               </div>
+
+          </div>
+
+
+        </div>
+        {/* <VideoSection /> */}
       </div>
 
-      <div>
+      <div className='mt-20'>
       <MaticProducts />
       </div>
       
+      <ImageSlider images={sliderImages} />
+
+
       <h2 className="text-3xl font-semibold mb-8">Explore Our Products</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {productsData.map((product) => (

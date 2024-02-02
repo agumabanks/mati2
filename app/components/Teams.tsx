@@ -42,12 +42,12 @@ const Teams: React.FC = () => {
   ];
 
   return (
-    <div className="bg-gray-100 py-16">
+    <div className="bg-gray-100 py-16 px-4">
       <div className="container mx-auto">
 
 
       <div className='grid grid-cols-1 sm:grid-cols-3 my-12'>
-            <h2 className="col-span-1 sm:col-span-1 text-3xl font-semibold mb-4">The Team</h2>
+            <h2 className="col-span-1 sm:col-span-1 text-3xl font-semibold mb-4 dark:text-black">The Team</h2>
             
             <div className="col-span-1 sm:col-span-2">
        
@@ -70,7 +70,7 @@ const Teams: React.FC = () => {
                             />
                           
                           <div className='flex flex-col items-start py-5'>
-                            <h3 className="text-xl font-semibold mb-2">Research </h3>
+                            <h3 className="text-xl font-semibold mb-2 dark:text-black">Research </h3>
                             
                             < p className="text-gray-600 text-justify">
                                 
@@ -91,7 +91,7 @@ const Teams: React.FC = () => {
                             />
                           
                           <div className='flex flex-col items-start py-5'>
-                            <h3 className="text-xl font-semibold mb-2">Policy </h3>
+                            <h3 className="text-xl font-semibold mb-2 dark:text-black">Policy </h3>
                             
                             < p className="text-gray-600 text-justify">
                                 
@@ -113,7 +113,7 @@ const Teams: React.FC = () => {
                             />
                           
                           <div className='flex flex-col items-start py-5'>
-                            <h3 className="text-xl font-semibold mb-2">Product </h3>
+                            <h3 className="text-xl font-semibold mb-2 dark:text-black">Product </h3>
                             
                             < p className="text-gray-600 text-justify">
                                 
@@ -134,7 +134,7 @@ const Teams: React.FC = () => {
                               height={120} />
                           
                           <div className='flex flex-col items-start py-5'>
-                            <h3 className="text-xl font-semibold mb-2"> Operations </h3>
+                            <h3 className="text-xl font-semibold mb-2 dark:text-black"> Operations </h3>
                             
                             < p className="text-gray-600 text-justify">
                               Our people, finance, legal, and recruiting teams are the human engines that make Anthropic go. 
@@ -151,11 +151,11 @@ const Teams: React.FC = () => {
 
           {/* Team Members */}
           <div className="mt-8">
-            <h3 className="text-2xl font-semibold mb-4">Team Members</h3>
+            <h3 className="text-2xl font-semibold mb-4 dark:text-black">Team Members</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {teamMembers.map((member, memberIndex) => (
                 <div key={memberIndex} className="bg-white p-6 rounded-md shadow-md">
-                  <h4 className="text-xl font-semibold mb-2">{member.name}</h4>
+                  <h4 className="text-xl font-semibold mb-2 dark:text-black">{member.name}</h4>
                   <p className="text-gray-500">{member.role}</p>
                 </div>
               ))}

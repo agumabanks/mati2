@@ -15,7 +15,7 @@ import AutoHorizontalScroll from './components/news/horizontalScroll'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between sm:p-4 md:p-2">
+    <main className="flex min-h-screen flex-col items-center justify-between ">
       
     <div className=' flex flex-col items-center justify-center min-h-screen max-w-7xl  py-1 -mt-10 '>
      
@@ -23,12 +23,12 @@ export default function Home() {
               <div className=' py-20'>
                         
                         <div>
-                              <h3 className='mb-3 text-2xl text-black font-bold mb-5 mr-10'>Digital Transformation Gateway</h3> 
+                              <h3 className='mb-3 text-2xl text-black font-bold mb-5 mr-10 dark:text-white'>Digital Transformation Gateway</h3> 
                               <div className='mb-3 text-base font-light mb-5 mr-10' >
-                              A driven technology company with 100% local proprietorship, committed to playing a positive role that supports local innovation and develops innovative technology solutions to address social and business needs of customers in Africa.
-                              {/* We a committed tech company with local ownership, fostering positive impacts through homegrown innovation and crafting technology solutions for DRC & African customers. */}
-                              {/* A dedicated tech company with exclusive local ownership, devoted to fostering positive impacts through supporting homegrown innovation and crafting cutting-edge technology solutions that cater to the social and business requirements of African customers. */}
-                                  {/* Where innovation meets empowerment! Unleash Africa  potential with our tech. Work smarter, automate, and redefine the future on our trusted platform. */}
+                              A driven technology company with 100% local proprietorship, committed to playing 
+                              a positive role that supports local innovation and develops innovative technology 
+                              solutions to address social and business needs of customers in Africa.
+                              
                               </div>
 
                               <div className='mt-8'>

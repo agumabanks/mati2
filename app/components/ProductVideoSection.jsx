@@ -22,7 +22,7 @@ export default function HomeSection() {
   return (
     <div className="container mx-auto my-10">
      <video
-          className="w-full rounded-md drop-shadow-md"// maxWidth: "100%", width: "800px", margin: "0 auto" }}
+          className="w-full rounded-md drop-shadow-md"
           playsInline
           loop
           muted

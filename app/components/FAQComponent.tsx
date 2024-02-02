@@ -67,7 +67,7 @@ const FAQComponent: React.FC = () => {
             <span>{expandedIndex === index ? '▲' : '▼'}</span>
           </div>
           {expandedIndex === index && (
-            <div className="p-4 bg-gray-100">
+            <div className="p-4 bg-gray-100 rounded-lg mt-3 dark:text-black ">
               <p>{faq.answer}</p>
             </div>
           )}

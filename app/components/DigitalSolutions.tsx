@@ -216,12 +216,12 @@ const faqData = [
 
 
   return (
-    <div className="bg-gray-100 py-6">
+    <div className="bg-gray-100 py-6 px-4">
       <div className="container mx-auto">
         <div className='min-h-screen border-b border-gray-500 mb-20'>
-          <div className='flex min-h-screen flex-col items-center justify-center'>
+          <div className='flex min-h-screen flex-col items-center justify-center p-4'>
           
-            <div className='flex mb-5 '>
+            <div className='flex mb-5 dark:text-black '>
               <h2 className="text-7xl font-extrabold  text-center ">Digital </h2>
               <h2 className="text-7xl font-extrabold  text-center ml-2 transition ease-in-out delay-150 italic "> Solutions</h2>
             </div>
@@ -233,7 +233,7 @@ const faqData = [
                 Welcome to the website
               </motion.h1> */}
 
-            <div className='flex flex-col text-lg px-10 py-2 items-center justify-center text-xl'>
+            <div className='flex flex-col text-lg px-10 py-2 items-center justify-center text-xl dark:text-black'>
                A next-generation AI Based digital solutions for your tasks, <span> no matter the scale</span>
             </div>
 
@@ -261,7 +261,7 @@ const faqData = [
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-3 my-12 p-12'>
-            <h2 className="col-span-1 sm:col-span-1 text-3xl font-semibold mb-4">Frequently Asked Questions</h2>
+            <h2 className="col-span-1 sm:col-span-1 text-3xl font-semibold mb-4 dark:text-black">Frequently Asked Questions</h2>
 
             <div className="col-span-1 sm:col-span-2 ">
                 <FaqDComponent  /> 
