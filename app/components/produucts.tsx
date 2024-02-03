@@ -8,6 +8,8 @@ import VideoSection from './ProductVideoSection';
 import MaticProducts from './Products/Products';
 import ContinuumProductComponent from './Products/continuum';
 import Continuum from './Products/conti';
+import AkongProductsPage from './Products/akongo/AkongoPageproducts';
+import EnigProductsPage from './Products/engima/page';
 
 
 
@@ -262,7 +264,8 @@ const ProductsPage: React.FC = () => {
       </div>
 
       <div className='mt-20'>
-      <MaticProducts />
+      {/* <MaticProducts /> */}
+      <AkongProductsPage />
       </div>
       
       <ImageSlider images={sliderImages} />
@@ -273,6 +276,10 @@ const ProductsPage: React.FC = () => {
         {productsData.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
+      </div>
+
+      <div>
+      <EnigProductsPage />
       </div>
 
       <div>
