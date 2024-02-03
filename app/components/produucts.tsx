@@ -6,6 +6,8 @@ import ProductCard from './ProductCard';
 import ImageSlider from './Slider';
 import VideoSection from './ProductVideoSection';
 import MaticProducts from './Products/Products';
+import ContinuumProductComponent from './Products/continuum';
+import Continuum from './Products/conti';
 
 
 
@@ -197,23 +199,23 @@ const Products = () => {
 
 const FooterSection: React.FC = () => {
   const iconsData = [
-    { icon: '/picsfloder/protect.jpg', text: 'Protect your Surface' },
-    { icon: '/picsfloder/protect.jpg', text: 'Surface for your business' },
-    { icon: '/picsfloder/protect.jpg', text: 'Accessories' },
-    { icon: '/picsfloder/protect.jpg', text: 'Surface support' },
-    { icon: '/picsfloder/protect.jpg', text: 'Register your Surface' },
-    { icon: '/picsfloder/protect.jpg', text: 'Power cord recall' }, 
-    //public\picsfloder\protect.jpg
+    { icon: '/picsfloder/5269933.png', text: 'Protect your Akongo' },
+    { icon: '/picsfloder/5269933.png', text: 'Continuum for your business' },
+    { icon: '/picsfloder/4649727.png', text: 'Accessories' },
+    { icon: '/picsfloder/5269933.png', text: 'Continuum support' },
+    { icon: '/picsfloder/5269933.png', text: 'Register your Continuum' },
+    { icon: '/picsfloder/5269933.png', text: 'Power cord recall' }, 
+    //public\picsfloder\5269933.png
   ];
   return (
-    <div className="bg-gray-200 py-10 my-20 rounded-md">
+    <div className="flex items-center bg-gray-200 py-10 my-20 rounded-md ">
       <div className="container mx-auto ">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {iconsData.map((item, index) => (
-            <div key={index} className="flex flex-col items-center">
+            <div key={index} className="flex flex-col items-center hover:rounded-md hover:p-7 hover:bg-red-800 hover:text-gray-50">
                 <img   src={item.icon} 
                           alt={`Icon ${index + 1}`} 
-                          className="w-16 h-16 mb-2"  width={400}
+                          className="w-16 h-16 mb-2"  width={300}
                           height={32}
                             />
               <p className="text-sm text-gray-600">{item.text}</p>
@@ -271,6 +273,10 @@ const ProductsPage: React.FC = () => {
         {productsData.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
+      </div>
+
+      <div>
+      <Continuum />
       </div>
     
       <FooterSection />

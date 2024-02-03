@@ -1411,6 +1411,9 @@ video {
 .p-8 {
   padding: 2rem;
 }
+.p-7 {
+  padding: 1.75rem;
+}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -2063,12 +2066,21 @@ partnerLogo {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-red-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
 .hover\:p-2:hover {
   padding: 0.5rem;
 }
 
 .hover\:p-5:hover {
   padding: 1.25rem;
+}
+
+.hover\:p-7:hover {
+  padding: 1.75rem;
 }
 
 .hover\:font-bold:hover {
@@ -2108,6 +2120,21 @@ partnerLogo {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-100:hover {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-50:hover {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
