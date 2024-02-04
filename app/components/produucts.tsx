@@ -211,7 +211,7 @@ const FooterSection: React.FC = () => {
   ];
   return (
     <div className="flex items-center bg-gray-200 py-10 my-20 rounded-md ">
-      <div className="container mx-auto ">
+      <div className="container mx-auto w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8 ">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {iconsData.map((item, index) => (
             <div key={index} className="flex flex-col items-center hover:rounded-md hover:p-7 hover:bg-red-800 hover:text-gray-50">

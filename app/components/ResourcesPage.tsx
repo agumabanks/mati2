@@ -264,7 +264,7 @@ const HelpResourcesPage: React.FC = () => {
 
 
   return (
-    <div className="container mx-auto min-h-screen transition-colors duration-150 ">
+    <div className="container mx-auto min-h-screen transition-colors duration-150 w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8 ">
      
      <div className='min-h-screen w-full '>
       <div className='flex min-h-screen flex-col items-center justify-center'>

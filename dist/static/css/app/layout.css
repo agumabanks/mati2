@@ -1540,6 +1540,12 @@ video {
 .pt-8 {
   padding-top: 2rem;
 }
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
+}
 .text-left {
   text-align: left;
 }
@@ -2445,6 +2451,19 @@ partnerLogo {
   .md\:p-2 {
     padding: 0.5rem;
   }
+
+  .md\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:pt-6 {
+    padding-top: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2600,12 +2619,21 @@ partnerLogo {
     padding-bottom: 1rem;
   }
 
+  .lg\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
   .lg\:pb-0 {
     padding-bottom: 0px;
   }
 
   .lg\:pl-8 {
     padding-left: 2rem;
+  }
+
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
   }
 
   .lg\:text-left {

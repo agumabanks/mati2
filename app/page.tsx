@@ -15,12 +15,12 @@ import AutoHorizontalScroll from './components/news/horizontalScroll'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <main className="flex min-h-screen flex-col items-center justify-between  ">
       
     <div className=' flex flex-col items-center justify-center min-h-screen max-w-7xl  py-1 -mt-10 '>
      
            <div className='grid grid-cols-1 sm:grid-cols-3 mt-12 h-full'>
-              <div className=' py-20'>
+              <div className=' w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
                         
                         <div>
                               <h3 className='mb-3 text-2xl text-black font-bold mb-5 mr-10 dark:text-white'>Digital Transformation Gateway</h3> 
@@ -50,7 +50,7 @@ export default function Home() {
               </div>
                     
                     
-               <div className="col-span-1 sm:col-span-2 ml-15 -mt-10 w-full h-full">
+               <div className="col-span-1 sm:col-span-2 ml-15 -mt-10 w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8 h-full ">
         
                       <div className='grid grid-cols-3 gap-4 w-full h-full items-center justify-center'>
                               
@@ -174,49 +174,53 @@ export default function Home() {
 
       </div>
     
-      <div className='container mx-auto  mt-20 max-w-7xl my-20 h-screen dark:text-black'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 items-center bg-white rounded-xl h-4/5 mt-20'>
-          
-          
-            <div className='mx-auto p-8 text-xl font-light'> 
-              <div className='my-5'>
-              Stimulate the global competitiveness of Business and Education in Africa with our customer-tailored products.
-              <p className='mt-5'>Embrace the future with products that honor the past, where tradition meets technology.</p>
+<div className='w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
+    <div className='container mx-auto  mt-20 max-w-7xl my-20 h-screen dark:text-black'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 items-center bg-white rounded-xl h-4/5 mt-20'>
+            
+            
+              <div className='mx-auto p-8 text-xl font-light'> 
+                <div className='my-5'>
+                Stimulate the global competitiveness of Business and Education in Africa with our customer-tailored products.
+                <p className='mt-5'>Embrace the future with products that honor the past, where tradition meets technology.</p>
 
 
 
+
+                </div>
+              <button type="button"
+                      className="inline-flex items-center rounded-md border border-red-700 bg-transparent px-4 py-3 px-4 text-sm 
+                      font-medium  shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 
+                      hover:text-white hover:font-bold mt-3"
+                    >
+                      Read More
+                    </button>
 
               </div>
-            <button type="button"
-                    className="inline-flex items-center rounded-md border border-red-700 bg-transparent px-4 py-3 px-4 text-sm 
-                    font-medium  shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 
-                    hover:text-white hover:font-bold mt-3"
-                  >
-                    Read More
-                  </button>
-
-            </div>
-         
-          <div className=' h-full w-full object-cover -mr-40 rounded md:rounded-xl p-5 ' >
-            <img
-              className=" h-full w-full object-cover -mr-40 rounded-xl shadow-md hover:shadow-xl"
-              src="/picsfloder/ep1.png"
-              alt=""
-              width={500}
-              height={500}
-               
-            />
-          </div>
           
+            <div className=' h-full w-full object-cover -mr-40 rounded md:rounded-xl p-5 ' >
+              <img
+                className=" h-full w-full object-cover -mr-40 rounded-xl shadow-md hover:shadow-xl"
+                src="/picsfloder/ep1.png"
+                alt=""
+                width={500}
+                height={500}
+                
+              />
+            </div>
+            
+          </div>
         </div>
-      </div>
-      
+        
+</div>
+
+    
 
 
 
-      <div className="bg-white  p-15 lg:py-14 m-22 w-full dark:text-black ">
+      <div className="bg-white w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8 m-22 w-full dark:text-black ">
               
-              <div className=''>
+              <div className='w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
                     <div className='flex flex-col items-center justisfy-center'>
                       
                       <div className='flex flex-col content-center items-center mb-6'>
@@ -245,7 +249,7 @@ export default function Home() {
 
 
       <div className='Container mx-auto px-24 sm:px-8 bg-black min-w-screen w-full h-full  p-10 '>
-        <div className='flex  flex-col items-center justify-between mt-10'>
+        <div className='flex  flex-col items-center justify-between mt-10  w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
           <h2 className='font-black text-7xl text-white p-5  mt-5'>
             CONTINUUM  IS  HERE
           </h2>
@@ -272,14 +276,14 @@ export default function Home() {
       </div>
 
 
-      <div className='Container  bg-black min-w-screen w-full h-full '>
+      <div className='Container  bg-black min-w-screen w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8 h-full '>
 
 
          <ProductsUsers></ProductsUsers>
       </div>
 
     <div className='container mx-auto px-4 sm:px-6 lg:px-8 my-10 max-w-full min-h-screen bg-gray dark:border-b border-white'>
-      <div className='p-20'>
+      <div className='w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
           <div className='text-5xl text-black font-semibold mb-14 ml-5'> 
          
             <div>
