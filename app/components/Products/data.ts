@@ -2,10 +2,12 @@
 
 import Product from './types';
 
+// /Users/esthermboa/Desktop/estr files/b/public/picsfloder/products/1.jpg
 const products: Product[] = [
   {
     id: 1,
     productName: "Continuum",
+    image: '/picsfloder/products/1.jpg',
     screenSize: "24 and 28 inch BOE IPS FHD Anti-Glare Screen\nResolution: FHD 1920*1080 Pixels",
     processor: "Intel® Core™ N100 Processor (6M Cache, Max Turbo Frequency. 3.40 GHz)",
     weight: "7kgs",
@@ -16,6 +18,7 @@ const products: Product[] = [
   {
     id: 2,
     productName: "Continuum",
+    image: '/picsfloder/products/1.jpg',
     screenSize: "24 and 28 inch BOE IPS FHD Anti-Glare Screen\nResolution: FHD 1920*1080 Pixels",
     processor: "Intel® Core™ i3-10110U Processor (4M Cache, up to 4.10 GHz)",
     weight: "7kgs",
@@ -26,6 +29,7 @@ const products: Product[] = [
   {
     id: 3,
     productName: "Continuum",
+    image: '/picsfloder/products/1.jpg',
     screenSize: "24 and 28 inch BOE IPS FHD Anti-Glare Screen\nResolution: FHD 1920*1080 Pixels",
     processor: "Intel® Core™ i5-13600K Processor (24M Cache, up to 5.10 GHz)",
     weight: "7kgs",
@@ -35,7 +39,8 @@ const products: Product[] = [
   },
   {
     id: 4,
-    productName: "Continuum",
+    productName: "Continuum SE",
+    image: '/picsfloder/products/1.jpg',
     screenSize: "24 and 28 inch BOE IPS FHD Anti-Glare Screen\nResolution: FHD 1920*1080 Pixels",
     processor: "Intel® Core i7-13700K Processor (30M Cache, up to 5.4 GHz)",
     weight: "7kgs",
@@ -45,7 +50,8 @@ const products: Product[] = [
   },
   {
     id: 5,
-    productName: "Continuum",
+    productName: "Continuum Edu",
+    image: '/picsfloder/products/1.jpg',
     screenSize: "24 and 28 inch BOE IPS FHD Anti-Glare Screen\nResolution: FHD 1920*1080 Pixels",
     processor: "Intel® Core i9-13900KF Processor (36M Cache, up to 5.8 GHz)",
     weight: "7kgs",

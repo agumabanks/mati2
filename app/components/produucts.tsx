@@ -216,9 +216,9 @@ const FooterSection: React.FC = () => {
           {iconsData.map((item, index) => (
             <div key={index} className="flex flex-col items-center hover:rounded-md hover:p-7 hover:bg-red-800 hover:text-gray-50">
                 <img   src={item.icon} 
-                          alt={`Icon ${index + 1}`} 
-                          className="w-16 h-16 mb-2"  width={300}
-                          height={32}
+                       alt={`Icon ${index + 1}`} 
+                       className="w-16 h-16 mb-2"  width={300}
+                       height={32}
                             />
               <p className="text-sm text-gray-600">{item.text}</p>
             </div>
@@ -265,24 +265,28 @@ const ProductsPage: React.FC = () => {
 
       <div className='mt-20'>
       {/* <MaticProducts /> */}
+      <h2 className="text-3xl font-semibold mb-8 mt-20">The Akongo'z</h2>
       <AkongProductsPage />
       </div>
       
       <ImageSlider images={sliderImages} />
 
 
-      <h2 className="text-3xl font-semibold mb-8">Explore Our Products</h2>
+      {/* <h2 className="text-3xl font-semibold mb-8">Explore Our Products</h2> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-        {productsData.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
+        
       </div>
 
       <div>
+        {/* <h2 className='text-black dark:text-white'>the Enigma'z</h2> */}
+        <h2 className="text-3xl font-semibold mb-8 mt-20">The Enigma'z</h2>
+
       <EnigProductsPage />
       </div>
 
       <div>
+      <h2 className="text-3xl font-semibold mb-8 mt-20">The Continuum'z</h2>
+
       <Continuum />
       </div>
     

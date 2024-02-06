@@ -25,9 +25,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md">
       <img src={product.image} alt={product.name} className="w-full h-3/2 object-cover mb-4" width={400}
-height={40}
- />
-      <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
+        height={40}
+        />
+      <h3 className="text-xl font-semibold mb-2 text-red-800">{product.name}</h3>
       <p className="text-gray-600 mb-4">{product.shortDescription}</p>
 
       <div className="flex items-center mb-2">

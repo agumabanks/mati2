@@ -3,6 +3,7 @@
 interface Product {
     id: number;
     name: string;
+    image:string;
     screenSize: string;
     processor: string;
     weight: string;
