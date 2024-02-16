@@ -13,10 +13,15 @@ const ProductComponent: React.FC<ProductProps> = ({ product }) => {
     <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 '>
      
       <div className='w-full h-full bg-white rounded-lx sm:rounded-l-md '>
-          <img src={product.image} alt={product.productName} 
+         <div className=''>
+         <img src={product.image} alt={product.productName} 
                className="w-full h-3/2 object-cover mb-4" width={400}
                height={40} 
           />
+         </div>
+
+
+
       </div>
 
       <div className="bg-white p-4  rounded-r-md shadow-md">

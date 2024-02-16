@@ -3,9 +3,6 @@
 import React from 'react';
 import products from './data';
 import ProductComponent from './ProductComponent';
-// import ProductComponent from '../components/ProductComponent';
-// import Product from '../types';
-// import products from '../data';
 
 const Continuum: React.FC = () => {
   return (

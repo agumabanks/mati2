@@ -57,7 +57,7 @@ export default function Home() {
                               <div className="p-3 h-auto w-full ">
         
                                 <img alt="df " className="relative h-50 w-auto object-cover rounded"
-                                              src={"/picsfloder/home/1.jpg"}
+                                              src={"/picsfloder/a1.png"}
                                               
                                               width={180}
                                               height={427}
