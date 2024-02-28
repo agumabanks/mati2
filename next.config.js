@@ -7,8 +7,8 @@ const nextConfig = {
     domains: ['unsplash.com','images.unsplash.com','tailwindui.com','cdn-dynmedia-1.microsoft.com','microsoft.com'],
   },
 
-  basePath: '',
-  assetPrefix: '',
+  // basePath: '/',
+  // assetPrefix: '/',
 
 
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`

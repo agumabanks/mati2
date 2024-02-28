@@ -62,7 +62,7 @@ const Teams: React.FC = () => {
           <div className='grid grid-cols-1 md:grid-cols-2  gap-8'>
             <div>
                 <div className="flex flex-col items-center hover:bg-white hover:shadow-md p-2 hover:p-5 rounded">
-                            <img   src="picsfloder/whymatic/research.png" 
+                            <img   src="/picsfloder/whymatic/research.png" 
                             alt="Innovation Icon" 
                             className="w-full h-50 mb-4 rounded-md"  width={400}
                               height={120}
@@ -83,7 +83,7 @@ const Teams: React.FC = () => {
 
             <div>
                 <div className="flex flex-col items-center hover:bg-white hover:shadow-md p-2 hover:p-5 rounded">
-                            <img   src="picsfloder/whymatic/policy.png" 
+                            <img   src="/picsfloder/whymatic/policy.png" 
                             alt="Innovation Icon" 
                             className="w-full h-50 mb-4 rounded-md"  width={400}
                               height={120}
@@ -106,7 +106,7 @@ const Teams: React.FC = () => {
 
             <div>
                 <div className="flex flex-col items-center hover:bg-white hover:shadow-md p-2 hover:p-5 rounded">
-                            <img   src="picsfloder/whymatic/product.png" 
+                            <img   src="/picsfloder/whymatic/product.png" 
                             alt="Innovation Icon" 
                             className="w-full h-50 mb-4 rounded-md"  width={400}
                               height={120}
@@ -128,7 +128,7 @@ const Teams: React.FC = () => {
 
             <div>
                 <div className="flex flex-col items-center hover:bg-white hover:shadow-md p-2 hover:p-5 rounded">
-                            <img   src="picsfloder/whymatic/ops.png" 
+                            <img   src="/picsfloder/whymatic/ops.png" 
                             alt="Innovation Icon" 
                             className="w-full h-50 mb-4 rounded-md"  width={400}
                               height={120} />

@@ -29,52 +29,52 @@ const DigitalSolutions: React.FC = () => {
   const digitalSolutions: DigitalSolution[] = [
     {
       name: 'Hospital Management System (HMS)',
-      image: 'picsfloder/software/hms.png',
+      image: '/picsfloder/software/hms.png',
       description: 'A comprehensive solution for managing all aspects of a hospital, from patient records to appointment scheduling and billing.',
     },
     {
       name: 'Learning Management System (LMS)',
-      image: 'picsfloder/software/lms.jpg',
+      image: '/picsfloder/software/lms.jpg',
       description: 'An e-learning platform that facilitates the creation, delivery, and tracking of online courses and training programs.',
     },
     {
       name: 'Point of Sale (POS)',
-      image: 'picsfloder/software/point-of-sale-systems.png',
+      image: '/picsfloder/software/point-of-sale-systems.png',
       description: 'A system for processing sales transactions, managing inventory, and providing real-time analytics for retail businesses.',
     },
     {
       name: 'Customer Relationship Management (CRM)',
-      image: 'picsfloder/software/customer-relationship-management-advice.png',
+      image: '/picsfloder/software/customer-relationship-management-advice.png',
       description: 'Helps businesses manage interactions with current and potential customers, streamline processes, and improve profitability.',
     },
     {
       name: 'Enterprise Resource Planning (ERP)',
-      image: 'picsfloder/software/erp.jpg',
+      image: '/picsfloder/software/erp.jpg',
       description: 'Integrates core business processes such as finance, HR, and supply chain management into a unified system.',
     },
     {
       name: 'Human Resources Management System (HRMs)',
-      image: 'picsfloder/software/hms.png',
+      image: '/picsfloder/software/hms.png',
       description: 'Facilitates HR processes, including employee data management, payroll, benefits administration, and performance tracking.',
     },
     {
       name: 'Content Management System (CMS)',
-      image: 'picsfloder/software/cmr.png',
+      image: '/picsfloder/software/cmr.png',
       description: 'Enables the creation, modification, and management of digital content, often used for websites and blogs.',
     },
     {
       name: 'E-commerce Platform',
-      image: 'picsfloder/software/ecom.jpg',
+      image: '/picsfloder/software/ecom.jpg',
       description: 'Provides a platform for online businesses to sell products or services, manage inventory, and process payments.',
     },
     {
       name: 'Supply Chain Management (SCM)',
-      image: 'picsfloder/software/a6.png',
+      image: '/picsfloder/software/a6.png',
       description: 'Optimizes the end-to-end process of delivering products, from the procurement of raw materials to distribution.',
     },
     {
       name: 'Business Intelligence (BI)',
-      image: 'picsfloder/software/bi.png',
+      image: '/picsfloder/software/bi.png',
       description: 'Utilizes data analysis tools and processes to help businesses make informed decisions and gain insights into their operations.',
     },
 

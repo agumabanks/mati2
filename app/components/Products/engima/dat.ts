@@ -6,7 +6,7 @@ const products: Product[] = [
   {
     id: 1,
     name: "EnigmaX Edu",
-        image: '/picsfloder/products/akongo/7.jpg',
+        image: '/picsfloder/products/enig/16.png',
 
     screenSize: "14.1'' / 1920*1080 FHD 1920*1080P",
     processor: "Intel® Celeron® Processor N5095 (4M Cache, up to 2.90 GHz)",
@@ -18,7 +18,7 @@ const products: Product[] = [
   {
     id: 2,
     name: "EnigmaX Se",
-        image: '/picsfloder/products/akongo/7.jpg',
+        image: '/picsfloder/products/enig/99.png',
 
     screenSize: "14.1'' / 1920*1080 FHD 1920*1080P",
     processor: "Intel® Core™ Intel Processor (Alder Lake-N N100 3.40 GHz )",
@@ -30,7 +30,7 @@ const products: Product[] = [
   {
     id: 3,
     name: "EnigmaX Pro",
-        image: '/picsfloder/products/akongo/7.jpg',
+        image: '/picsfloder/products/enig/13.png',
 
     screenSize: "14.1'' / 1920*1080 FHD 1920*1080P",
     processor: "Intel® Core™ i3-13110U Processor (20M cache up to 4.1GHz)",
@@ -42,7 +42,7 @@ const products: Product[] = [
   {
     id: 4,
     name: "EnigmaX Pro Se",
-        image: '/picsfloder/products/akongo/7.jpg',
+        image: '/picsfloder/products/enig/111.png',
 
     screenSize: "14.1 and 15.6inch, FHD 1920*1080P",
     processor: "Intel® Core™ i5-1335U Processor (20M Cache, up to 4.40 GHz)",
@@ -54,7 +54,7 @@ const products: Product[] = [
   {
     id: 5,
     name: "EnigmaX Large",
-        image: '/picsfloder/products/akongo/7.jpg',
+        image: '/picsfloder/products/enig/11.png',
 
     screenSize: "15.6inch, FHD 1920*1080P",
     processor: "Intel® Core™ i7-13700HX Processor (30M Cache, up to 5.00 GHz)",
@@ -66,7 +66,7 @@ const products: Product[] = [
   {
     id: 6,
     name: "EnigmaX Large Se",
-        image: '/picsfloder/products/akongo/7.jpg',
+        image: '/picsfloder/products/enig/11.png',
 
     screenSize: "15.6inch, FHD 1920*1080P",
     processor: "Intel® Core™ i9-13900H Processor (24M Cache, up to 5.40 GHz)",

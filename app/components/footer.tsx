@@ -41,7 +41,7 @@ const Footer = () => {
          <div>
           <div className='flex py-5 items-center '>
             <a className='text-xl font-medium	' href="/">Matic</a>
-            <div className='grid grid-cols-4  text-center ml-5'>
+            <div className='hidden sm:grid grid-cols-4  text-center ml-5 '>
               <a href="/whyMatic" className='group rounded-lg opacity-50 text-sm border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>Company </a>
               <a href="/products" className='group rounded-lg opacity-50 text-sm border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>Matic Products </a>
               <a href="/policy" className='group rounded-lg opacity-50 text-sm border border-transparent px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>Privacy </a>

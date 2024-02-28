@@ -17,9 +17,9 @@ export default function ProductsUsers(){
                         
                         </div>
 
-                        <div> 
+                        <div className='mb-10 sm:mb-2'> 
                             <div className='flex items-start justify-between '>
-                                <h2  className='font-black text-7xl text-white '>
+                                <h2  className='sm:px-4 font-black text-4xl sm:text-7xl text-white '>
                                     CONNECTING BOUNDARIES & BEYOND
                                 </h2>
                             </div>
@@ -31,7 +31,7 @@ export default function ProductsUsers(){
                             
                             <a href='/solutions' 
                             className='flex items-center justify-center rounded-full bg-white hover:bg-red-700  
-                                        text-black hover:text-white hover:font-bold py-7 px-2 mt-8 w-1/4  h-10'>
+                                        text-black hover:text-white hover:font-bold py-7 px-2 mt-8 w-1/2 sm:w-1/4  h-10'>
                                 See our Solutions
                             </a>
                         </div>
@@ -40,9 +40,9 @@ export default function ProductsUsers(){
                 
                 </div>
 
-                <div className='flex flex-col items-center justify-center'>
+                <div className='flex flex-col items-center justify-center mt-16 sm:mt-2'>
                     <div className='flex flex-col items-center justify-center'>
-                        <h2 className='font-black text-7xl text-white p-5  mt-5'> CHECK OUT OUR TABLET </h2>
+                        <h2 className='font-black  text-white p-5  mt-5    text-4xl sm:text-7xl'> CHECK OUT OUR TABLET </h2>
                         <div className='text-white'>Get the one that matches your vibe.</div>
                         <div className='text-white'>Some cards are only available on subscription plans. Fees may apply.</div>
                         <div className='mt-10'>
@@ -60,20 +60,26 @@ export default function ProductsUsers(){
 
                     </div>
 
+                    {/* <div className='h-1/2 w-1/2'>
+                        
+                    <img  className="relative object-cover mb-10 md:mb-15 mt-16 sm:mt-2"
+                        src="/picsfloder/ak1.png" alt=""/>
+
+
+
+                    </div> */}
+
+
                     <img
-                        className="relative object-cover h-3/5 w-1/2 mb-10 md:mb-15"
+                        className="relative object-cover mb-10 md:mb-15 mt-16 sm:mt-2"
                         src="/picsfloder/ak1.png"
-                        alt=""
+                        alt="  "
                         width={500}
                         height={500}
-                         
-                        />
+                        
+                    />
                 </div>
-
           </div>
-        
-        </div>
-
-        
+        </div>  
     )
 }

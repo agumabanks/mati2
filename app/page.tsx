@@ -19,19 +19,19 @@ export default function Home() {
       
     <div className=' flex flex-col items-center justify-center min-h-screen max-w-7xl  py-1 -mt-10 '>
      
-           <div className='grid grid-cols-1 sm:grid-cols-3 mt-12 h-full'>
+           <div className='grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12 h-full '>
               <div className=' w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
                         
                         <div>
-                              <h3 className='mb-3 text-2xl text-black font-bold mb-5 mr-10 dark:text-white'>Digital Transformation Gateway</h3> 
-                              <div className='mb-3 text-base font-light mb-5 mr-10' >
+                          <h3 className='mb-3 text-2xl text-black font-bold mb-5 mr-10 dark:text-white'>Digital Transformation Gateway</h3> 
+                            <div className='mb-3 text-base font-light mb-5 mr-10' >
                               A driven technology company with 100% local proprietorship, committed to playing 
                               a positive role that supports local innovation and develops innovative technology 
                               solutions to address social and business needs of customers in Africa.
                               
-                              </div>
+                            </div>
 
-                              <div className='mt-8'>
+                            <div className='mt-8'>
                                     <button
                                       type="button"
                                        className="inline-flex items-center rounded-md border border-red-700 bg-transparent px-4 py-3 text-sm font-medium  shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 hover:text-white"
@@ -103,6 +103,9 @@ export default function Home() {
 
     
      </div>
+
+
+
 
 
 
@@ -263,7 +266,7 @@ export default function Home() {
           <div>
           <img
             className="relative  h-500 w-500"
-            src="/picsfloder/co1.png"
+            src="/picsfloder/products/conti/cont1.png" 
             alt="  "
             width={500}
             height={500}
@@ -315,23 +318,21 @@ export default function Home() {
   </div>
     
 
-   <div className='container  mx-auto px-4 sm:px-6 lg:px-8 my-40  mb-30 max-w-5xl'>
-      <div className='relative '>
-        <div className='flex flex-col items-center  mx-auto'>
-          <h2 className='flex items-center justify-center font-black text-6xl text-center '>
-            JOIN THE 1000+ USING MATIC PRODUCTS
-          </h2> 
-
-          <a href='/support'>
-              <div  className='bg-black  dark:bg-white dark:text-black flex items-center justify-center rounded-full text-white font-bold px-7 py-4 mt-12  '>
-                  Get Started
-              </div> 
-                
-          </a> 
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 my-10 sm:my-20 lg:my-40 mb-10 sm:mb-20 lg:mb-30 max-w-5xl">
+  <div className="relative">
+    <div className="flex flex-col items-center mx-auto">
+      <h2 className="font-black text-4xl sm:text-5xl lg:text-6xl text-center">
+        JOIN THE 1000+ USING MATIC PRODUCTS
+      </h2>
+      <a href="/support">
+        <div className="bg-black dark:bg-white dark:text-black flex items-center justify-center rounded-full text-white font-bold px-7 py-4 mt-8 sm:mt-12">
+          Get Started
         </div>
-      </div>
-        
+      </a>
+    </div>
   </div>
+</div>
+
 
   <div className='py-30 mb-20'>
       <Testimonials></Testimonials>

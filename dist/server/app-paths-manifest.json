@@ -1,9 +1,0 @@
-{
-  "/not-found": "app/not-found.js",
-  "/products/page": "app/products/page.js",
-  "/solutions/page": "app/solutions/page.js",
-  "/whyMatic/page": "app/whyMatic/page.js",
-  "/resources/page": "app/resources/page.js",
-  "/signin/page": "app/signin/page.js",
-  "/support/page": "app/support/page.js"
-}

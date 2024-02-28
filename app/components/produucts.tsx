@@ -269,7 +269,7 @@ const ProductsPage: React.FC = () => {
       <AkongProductsPage />
       </div>
       
-      <ImageSlider images={sliderImages} />
+      {/* <ImageSlider images={sliderImages} /> */}
 
 
       {/* <h2 className="text-3xl font-semibold mb-8">Explore Our Products</h2> */}

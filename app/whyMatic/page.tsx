@@ -16,7 +16,7 @@ const AboutMatic: React.FC = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
-            <img   src="picsfloder/whymatic/a1.png" 
+            <img   src="/picsfloder/whymatic/a1.png" 
             alt="About Matic Image" 
             className="w-full h-auto rounded-md shadow-lg" 
             height={32}
@@ -162,7 +162,7 @@ export  default function About(){
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
               <div>
-                  <img   src="picsfloder/whymatic/a1.png" 
+                  <img   src="/picsfloder/whymatic/a1.png" 
                   alt="About Matic Image" 
                   className="w-full h-300 rounded-md shadow-lg" width={300} height={300}/>
               </div>
@@ -241,7 +241,7 @@ export  default function About(){
                       <div className="col-span-1 sm:col-span-2  mb-20">
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                       <div className="flex flex-col items-center">
-                          <img   src="picsfloder/whymatic/light.png" alt="Innovation Icon" className="w-16 h-16 mb-4"  width={400}
+                          <img   src="/picsfloder/whymatic/light.png" alt="Innovation Icon" className="w-16 h-16 mb-4"  width={400}
                             height={32}
                             priority 
                           />
@@ -254,7 +254,7 @@ export  default function About(){
                             </p>
                       </div>
                   <div className="flex flex-col items-center">
-                      <img   src="picsfloder/whymatic/magn.png" alt="Quality Icon" className="w-16 h-16 mb-4"  width={400}
+                      <img   src="/picsfloder/whymatic/magn.png" alt="Quality Icon" className="w-16 h-16 mb-4"  width={400}
                         height={32}
                          
                       />
@@ -265,7 +265,7 @@ export  default function About(){
                     </p>
                   </div>
                   <div className="flex flex-col items-center">
-                      <img   src="picsfloder/whymatic/local.png" alt="Local Impact Icon" className="w-16 h-16 mb-4"  width={400}
+                      <img   src="/picsfloder/whymatic/local.png" alt="Local Impact Icon" className="w-16 h-16 mb-4"  width={400}
                     height={32}
                      />
                     <h3 className="text-xl font-semibold mb-2">Local Impact</h3>

@@ -6,7 +6,8 @@ const products: Product[] = [
   {
     id: 1,
     name: "Akongo Mini",
-    image: '/picsfloder/products/akongo/7.jpg',
+    image: '/picsfloder/products/akongo/2.png',
+    // public/picsfloder/products/akongo/2.png
 
     screenSize: "10.1 inch (diagonal)",
     processor: "CPU RK3562 Core Octa 2.0GHz GPU ARM Mali-G52 MP2",
@@ -30,7 +31,7 @@ const products: Product[] = [
   {
     id: 3,
     name: "Akongo",
-            image: '/picsfloder/products/akongo/7.jpg',
+            image: '/picsfloder/products/akongo/8.png',
 
     screenSize: "10.8 inches",
     processor: "Qualcomm Snapdragon 680 Octa-core, 6nm, Cortex-A73*4 (2.4 GHz), Cortex-A53*4 (1.8 GHz)",
@@ -42,7 +43,7 @@ const products: Product[] = [
   {
     id: 4,
     name: "Akongo Large",
-    image: '/picsfloder/products/akongo/7.jpg',
+    image: '/picsfloder/products/akongo/9.png',
 
     screenSize: "11.2 inches",
     processor: "MTK G95 (MT8789) , octa core Cortex-A76 cores operating at 2.05GHz, Mali- G76, MC4 800MHz",
