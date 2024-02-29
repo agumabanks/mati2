@@ -216,7 +216,7 @@ const faqData = [
 
 
   return (
-    <div className="bg-gray-100 py-6 px-4">
+    <div className="bg-gray-100 py-1 px-4">
       <div className="container mx-auto">
         <div className='min-h-screen border-b border-gray-500 mb-20'>
           <div className='flex min-h-screen flex-col items-center justify-center p-4'>
