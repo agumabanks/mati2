@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from 'next/image'
 import MobileMenu from './components/mobilemenu'
-// import Footer from 'components/footer'
 import RoundedButtons from './components/round_buttons'
 import Testimonials from './components/testmonies'
 import ProductsUsers from './components/productUsers'
@@ -10,7 +9,6 @@ import SupportComponent from './components/support'
 import pic1 from '@/app/assets/images/matic.png';
 import AutoHorizontalScroll from './components/news/horizontalScroll'
 
-//  <img src={pic1} alt="photo" fill={true} public\picsfloder\1.png/>
 
 
 export default function Home() {
@@ -23,7 +21,18 @@ export default function Home() {
               <div className=' w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
                         
                         <div>
-                          <h3 className='mb-3 text-2xl text-black font-bold mb-5 mr-10 dark:text-white'>Digital Transformation Gateway</h3> 
+                            <h3 className='
+                              mb-3 text-2xl 
+                              text-black font-bold 
+                              mb-5 
+                              mr-10 
+                              dark:text-white
+                              text-4xl 
+                              text-justify
+                            '>
+                              Digital Transformation Gateway
+                            </h3> 
+
                             <div className='mb-3 text-base font-light mb-5 mr-10' >
                               A driven technology company with 100% local proprietorship, committed to playing 
                               a positive role that supports local innovation and develops innovative technology 
@@ -64,14 +73,12 @@ export default function Home() {
                                                
                                             />
 
-                             {/* public\picsfloder\home\2.jpg */}
 
                               </div>
         
                               <div className="">
         
-                                  <img
-                                                className="relative w-full h-150 object-cover rounded"
+                                              <img   className="relative w-full h-150 object-cover rounded"
                                                 src={"/picsfloder/home/2.jpg"}
                                                 alt=""
                                                 width={180}
@@ -106,11 +113,6 @@ export default function Home() {
 
 
 
-
-
-
-
-
     <div className="relative flex place-items-start 
       before:absolute before:h-[300px] before:w-[480px] 
       before:-translate-x-1/2 before:rounded-full 
@@ -135,15 +137,12 @@ export default function Home() {
         </div>
       </div>
 
+
+
       <div className="mb-32 grid gap-4 sm:grid-cols-3  lg:max-w-7xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left ">
         
         
         <div className=' items-center m-4 '>
-      
-          {/* <video className='' src="/videos/v1.mp4"  >
-          
-          </video> */}
-
           <img src="/picsfloder/products/c1.jpg" className='' alt="" />
 
           <div className='mt-10  text-xl font-light '>
@@ -181,14 +180,23 @@ export default function Home() {
     <div className='container mx-auto  mt-20 max-w-7xl my-20 h-screen dark:text-black'>
             <div className='grid grid-cols-1 sm:grid-cols-2 items-center bg-white rounded-xl h-4/5 mt-20'>
             
-            
+              
               <div className='mx-auto p-8 text-xl font-light'> 
+
+                    <div className='text-5xl text-black font-semibold mb-14'> 
+                      
+                        <div className='my-2'>
+                           Boosting African 
+                        </div>
+
+                        <div>
+                        Potential.
+                        </div> 
+                      
+                    </div >
                 <div className='my-5'>
                 Stimulate the global competitiveness of Business and Education in Africa with our customer-tailored products.
                 <p className='mt-5'>Embrace the future with products that honor the past, where tradition meets technology.</p>
-
-
-
 
                 </div>
               <button type="button"
@@ -285,11 +293,12 @@ export default function Home() {
          <ProductsUsers></ProductsUsers>
       </div>
 
-    <div className='container mx-auto px-4 sm:px-6 lg:px-8 my-10 max-w-full min-h-screen bg-gray dark:border-b border-white'>
-      <div className='w-full px-4 pt-5 pb-9 md:px-6 md:pb-10 md:pt-6 lg:px-7 lg:pb-12 3xl:px-8'>
-          <div className='text-5xl text-black font-semibold mb-14 ml-5'> 
+    <div className='container mx-auto px-4 sm:px-6 lg:px-8 my-10 max-w-full bg-gray dark:border-b border-white'>
+      <div className='w-full px-4 pt-5  md:px-6  md:pt-6 lg:px-7  3xl:px-8 mb-10'>
+          
+          <div className='text-5xl text-black font-semibold mb-14 ml-5 '> 
          
-            <div>
+            <div className='mt-10'>
               Hear from
             </div>
 
@@ -299,7 +308,7 @@ export default function Home() {
             
           </div >
          
-         {/* <NewsComponent /> */}
+        
 
          <AutoHorizontalScroll />
          

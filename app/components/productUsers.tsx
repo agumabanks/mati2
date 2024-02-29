@@ -18,8 +18,8 @@ export default function ProductsUsers(){
                         </div>
 
                         <div className='mb-10 sm:mb-2'> 
-                            <div className='flex items-start justify-between '>
-                                <h2  className='sm:px-4 font-black text-4xl sm:text-7xl text-white '>
+                            <div className='flex items-start justify-between'>
+                                <h2  className=' font-black text-4xl sm:text-7xl text-white' >
                                     CONNECTING BOUNDARIES & BEYOND
                                 </h2>
                             </div>
@@ -42,9 +42,9 @@ export default function ProductsUsers(){
 
                 <div className='flex flex-col items-center justify-center mt-16 sm:mt-2'>
                     <div className='flex flex-col items-center justify-center'>
-                        <h2 className='font-black  text-white p-5  mt-5    text-4xl sm:text-7xl'> CHECK OUT OUR TABLET </h2>
+                        <h2 className='font-black  text-white p-5  mt-5    text-4xl sm:text-7xl text-center'> CHECK OUT OUR TABLET </h2>
                         <div className='text-white'>Get the one that matches your vibe.</div>
-                        <div className='text-white'>Some cards are only available on subscription plans. Fees may apply.</div>
+                        <div className='text-white text-center'>Some cards are only available on subscription plans. Fees may apply.</div>
                         <div className='mt-10'>
                             <div> 
                                 <a className='px-5 py-4 mr-3 bg-white text-black font-medium hover:text-blue-300  rounded-full hover:bg-red-700  
@@ -60,18 +60,7 @@ export default function ProductsUsers(){
 
                     </div>
 
-                    {/* <div className='h-1/2 w-1/2'>
-                        
-                    <img  className="relative object-cover mb-10 md:mb-15 mt-16 sm:mt-2"
-                        src="/picsfloder/ak1.png" alt=""/>
-
-
-
-                    </div> */}
-
-
-                    <img
-                        className="relative object-cover mb-10 md:mb-15 mt-16 sm:mt-2"
+                    <img  className="relative object-cover my-20 size-1/2"
                         src="/picsfloder/ak1.png"
                         alt="  "
                         width={500}
